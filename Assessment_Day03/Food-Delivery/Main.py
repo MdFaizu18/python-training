@@ -20,7 +20,7 @@ john.checkout()
 
 print("\n")
 
-# Emma orders food
+# Ema orders food
 emma.order.add_item(pizza)
 emma.order.add_item(burger)
 emma.order.view_order()
@@ -31,3 +31,4 @@ john.order.remove_item(burger)
 print("\nAfter removing Burger:")
 john.order.view_order()
 john.checkout()
+
